@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-
+namespace Hilo
+{
 internal class Program
 {
     static void Main(string[] args)
@@ -120,4 +121,5 @@ class Barberia
             barbero.Join(); // Esperar a que cada barbero termine
         }
     }
+}
 }
